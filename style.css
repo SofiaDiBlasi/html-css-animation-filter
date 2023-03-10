@@ -123,8 +123,6 @@
     }
 }
 
-
-
 .ex-12-button, .ex-13-button {
     position: relative;
     display: block;
@@ -153,4 +151,115 @@
     background: #f5f5f5;
     width: 60px;
     height: 20px;
+}
+
+.ex-12-button:hover > .ex-12-top-white{
+    animation: slowmotion1 3s linear;
+}
+
+@keyframes slowmotion1{
+
+    0%{
+        left: 10%;
+    }
+     50%{
+        left: 68%;
+     }
+
+     100%{
+        left: 10%;
+    }
+}
+
+.ex-12-button:hover > .ex-12-bottom-white{
+    animation: slowmotion2 3s linear;
+}
+
+@keyframes slowmotion2{
+
+    0%{
+        left: 50%;
+    }
+     50%{
+        left: 0%;
+     }
+
+     100%{
+        left: 50%;
+    }
+}
+
+
+.ex-13-button:hover > .ex-13-top-white{
+    animation: girotondo1 3s linear;
+}
+
+@keyframes girotondo1 {
+    0%{
+        top: -10px;
+        left: 10%;
+    }
+
+    20%{
+        top: -10px;
+        left: 100%;
+    }
+
+    40%{
+        top: 60px;
+        left: 100%;
+    }
+
+    60%{
+        top: 60px;
+        left: -10%;        
+    }
+
+    80%{
+        top: -10px;
+        left: -10%;         
+    }
+
+    100%{
+        top: -10px;
+        left: 10%;
+    }
+    
+}
+
+.ex-13-button:hover > .ex-13-bottom-white{
+    animation: girotondo2 3s linear;
+}
+
+@keyframes girotondo2 {
+    0%{
+        bottom: -10px;
+        right: 20%;
+    }
+
+    20%{
+        bottom: -10px;
+        right: 80%;
+    }
+
+    40%{
+        bottom: 60px;
+        right: 80%;
+    }
+
+    60%{
+        bottom: 60px;
+        right: -10%;        
+    }
+
+    80%{
+        bottom: -10px;
+        right: -10%;         
+    }
+
+    100%{
+        bottom: -10px;
+        right: 20%;
+    }
+    
 }
