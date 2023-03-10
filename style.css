@@ -66,6 +66,16 @@
     filter: grayscale(100%);
 }
 
+.ex-7-img:hover{
+    transition: 5s;
+    filter: grayscale(100%);
+}
+
+.ex-8-img:hover{
+    transition: 2s;
+    filter: grayscale(80%);
+    border-radius: 5%;
+}
 
 .ex-9-img {
     margin: 50px 100px;
