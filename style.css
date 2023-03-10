@@ -81,6 +81,14 @@
     margin: 50px 100px;
     width: 400px;
 }
+
+.ex-9-img:hover{
+    transition: 2s;
+    border-radius: 10%;
+    filter: grayscale(80%);
+    transform: scale(1.5);
+}
+
 .ex-10-icon {
     font-size: 60px;
 }
